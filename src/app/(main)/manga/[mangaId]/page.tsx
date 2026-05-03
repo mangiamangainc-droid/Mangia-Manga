@@ -249,7 +249,7 @@ export default function MangaDetailPage({ params }: { params: { mangaId: string 
                       color: "#000", fontWeight: 900, fontSize: "1rem", flexShrink: 0,
                       boxShadow: "0 6px 15px rgba(1, 255, 72, 0.3)"
                     }}>
-                      {ep.episodeNumber}
+                      {(ep as any).episodeNumber}
                     </div>
                     <div style={{ flex: 1 }}>
                       <div style={{ fontWeight: 700, fontSize: "0.95rem", color: "#fff" }}>{ep.titleEN}</div>
