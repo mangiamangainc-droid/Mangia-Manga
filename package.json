@@ -23,32 +23,21 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "firebase": "^10.14.1",
-<<<<<<< HEAD
     "firebase-admin": "^13.8.0",
-=======
->>>>>>> cc5d885380808c7add3c89202376d4c514bb9af5
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.460.0",
     "next": "14.2.18",
     "next-intl": "^3.23.5",
     "react": "^18",
     "react-dom": "^18",
-<<<<<<< HEAD
     "react-dropzone": "^14.3.5",
-=======
->>>>>>> cc5d885380808c7add3c89202376d4c514bb9af5
     "react-hook-form": "^7.53.2",
     "react-hot-toast": "^2.4.1",
     "stripe": "^17.3.1",
     "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.4",
     "zod": "^3.23.8",
-<<<<<<< HEAD
     "zustand": "^5.0.1"
-=======
-    "zustand": "^5.0.1",
-    "react-dropzone": "^14.3.5"
->>>>>>> cc5d885380808c7add3c89202376d4c514bb9af5
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -60,8 +49,4 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> cc5d885380808c7add3c89202376d4c514bb9af5
