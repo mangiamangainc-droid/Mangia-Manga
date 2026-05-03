@@ -252,7 +252,7 @@ export default function LoginPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-dark-bg via-transparent to-transparent z-10" />
         
         <MediaDisplay
-          url={loginMedia?.mediaURL}
+          url={loginMedia?.mediaURL ?? ""}
           alt="MANGIA Login"
           style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0 }}
           className="object-cover"
