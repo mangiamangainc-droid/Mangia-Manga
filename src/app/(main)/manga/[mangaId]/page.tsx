@@ -230,7 +230,7 @@ export default function MangaDetailPage({ params }: { params: { mangaId: string 
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "12px" }}>
               {visibleEpisodes
                 .filter(ep => ep.seasonId === selectedSeasonId)
-                /fix JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+                .sort((a, b) => ((a as any).episodeNumber ?? 0) - ((b as any).episodeNumber ?? 0))
 
                 .map(ep => (
                   <div
